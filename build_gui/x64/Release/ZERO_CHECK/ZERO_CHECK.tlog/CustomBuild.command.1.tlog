@@ -1,0 +1,10 @@
+^F:\CONVERTER\VORTEXFORGE\BUILD_GUI\CMAKEFILES\3B676D1BDF50CA0205EAC4016095BAE7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/converter/VortexForge -BF:/converter/VortexForge/build_gui --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/converter/VortexForge/build_gui/VortexForge.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

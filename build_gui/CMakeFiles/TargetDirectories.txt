@@ -1,0 +1,3 @@
+F:/converter/VortexForge/build_gui/CMakeFiles/valve_converter.dir
+F:/converter/VortexForge/build_gui/CMakeFiles/ALL_BUILD.dir
+F:/converter/VortexForge/build_gui/CMakeFiles/ZERO_CHECK.dir
