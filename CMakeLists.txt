@@ -18,7 +18,7 @@ set_target_properties(valve_converter PROPERTIES
 
 target_compile_definitions(valve_converter PRIVATE
     VORTEXFORGE_VERSION="${PROJECT_VERSION}"
-    VORTEXFORGE_GITHUB_REPO="yourname/VortexForge"
+    VORTEXFORGE_GITHUB_REPO="lynx228/VortexForge"
 )
 
 target_include_directories(valve_converter PRIVATE
